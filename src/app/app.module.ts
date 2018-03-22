@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { UserModule } from './user-module/user.module';
 import { AppRoutingModule } from './app-routing.module';
+import { AlertModule } from 'ngx-bootstrap';
+import { UserService } from './core/user.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
     AppRoutingModule
 
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
