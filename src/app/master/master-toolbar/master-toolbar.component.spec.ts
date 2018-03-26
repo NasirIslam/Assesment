@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MasterSidebarComponent } from './master-sidebar.component';
+import { MasterToolbarComponent } from './master-toolbar.component';
 
-describe('MasterSidebarComponent', () => {
-  let component: MasterSidebarComponent;
-  let fixture: ComponentFixture<MasterSidebarComponent>;
+describe('MasterToolbarComponent', () => {
+  let component: MasterToolbarComponent;
+  let fixture: ComponentFixture<MasterToolbarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MasterSidebarComponent ]
+      declarations: [ MasterToolbarComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MasterSidebarComponent);
+    fixture = TestBed.createComponent(MasterToolbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
