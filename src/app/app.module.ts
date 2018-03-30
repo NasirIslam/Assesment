@@ -9,6 +9,7 @@ import { SharedModule } from './shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { MasterModule } from './master/master.module';
+import {ReactiveFormsModule, FormGroup, FormControl, Validators, FormBuilder} from "@angular/forms";
 
 
 
@@ -24,7 +25,8 @@ import { MasterModule } from './master/master.module';
     SharedModule,
     FormsModule,
     FlexLayoutModule,
-    MasterModule
+    MasterModule,
+    ReactiveFormsModule
 
   ],
   providers: [UserService],
